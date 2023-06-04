@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,7 +19,7 @@
             id="texto" 
             cols="30" 
             rows="10" 
-            placeholder="Ingrese el texto">
+            placeholder="Ingrese el texto aqui">
             </textarea>
         
             <div class="terminos">
@@ -25,7 +28,7 @@
             <div class="botones">
                 <button class="btn-encriptar" 
                 type="button" 
-                onclick="encriptar()">encriptar
+                onclick="encriptar()">Encriptar
                 </button>
                 <input 
                 type="button" 
@@ -35,15 +38,15 @@
             </div>
         </div>
         <div class="encriptado">
-            <img src="" alt="" id="muñeco">
+            <img src="img/muñeco.png" alt="" id="muñeco">
             <div class="mensaje-encriptado" id="mensaje-encriptado">
-                <h2 id="titulo-mesaje">Ningun mensaje encontrado</h2>
+                <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
                 <p id="parrafo">Ingresa texto que deseas encriptar o desencriptar</p>
-                <textarea name="mensaje" 
+                <!-- <textarea name="mensaje" 
                 id="mensaje" 
                 cols="30" 
                 rows="10" 
-                class="mensaje"></textarea>
+                class="mensaje"></textarea> -->
             </div>
         </div>
     </div>
