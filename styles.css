@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .container{
     position: relative;
     width: 100%;
@@ -10,6 +11,15 @@
     background: #f3f5fc;
 }
 
+
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 45px;
+
+}
 .texto{
     position: absolute;
     width: 42%;
